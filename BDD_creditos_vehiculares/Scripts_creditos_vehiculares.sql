@@ -115,3 +115,13 @@ ADD CONSTRAINT fk_credito_cuenta FOREIGN KEY (id_cuenta) REFERENCES cuenta(id_cu
 ALTER TABLE garantia_credito
 ADD CONSTRAINT fk_garantiaCredito_credito FOREIGN KEY (id_credito) REFERENCES credito(id_credito),
     CONSTRAINT fk_garantiaCredito_garantia FOREIGN KEY (id_garantia) REFERENCES garantia(id_garantia);
+
+-- Agregar columna fecha_asignacion a garantia_credito
+ALTER TABLE garantia_credito
+ADD fecha_asignacion DATE;
+
+-- Agregar columna valor_asegurado a garantia_credito
+ALTER TABLE garantia_credito
+ADD valor_asegurado DECIMAL(18,2);
+USE BDD_creditos_vehiculares
+SELECT * FROM garantia_credito
