@@ -48,19 +48,19 @@ Establecer un flujo eficiente y controlado para la gestión de créditos vehicul
 
 - Durand Galindo Josué Yamil  
 - Llerena Díaz, Diana Mariella  
-- Sánchez Vargas, Evelin Fiorella  
-- Pachas Lachira, Luis Felipe
 - Pasache Mendoza, Eduardho Jair
 
 ## Diagrama entidad-relación
-![image](https://github.com/user-attachments/assets/a2c017ba-984c-4ff7-9b7a-1d249a914fd7)
+![image](https://github.com/user-attachments/assets/5bfca4a2-a668-4bd8-8edc-1dbfd1bab563)
+
 
 ## Modelo Lógico
 ![image](https://github.com/user-attachments/assets/b5cfd3f5-83ca-486f-b961-dae1dc9e4f27)
 
 
 ## Modelo Físico
-![image](https://github.com/user-attachments/assets/507bf505-eace-46ec-93b8-0e0139bd2ae5)
+![image](https://github.com/user-attachments/assets/80a6fb5e-c13d-4bea-b216-a869d111fbbe)
+
 
 ## Scripts SQL
 - Se encuentran en la carpepta bdd_creditos_vehiculares_
