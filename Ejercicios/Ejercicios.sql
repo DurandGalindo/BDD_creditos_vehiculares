@@ -15,13 +15,13 @@ SELECT nombre, descripcion, precio
 --Ejercicio N°2
 /* Mostrar los créditos con monto mayor a 50,000. */
 SELECT * FROM credito 
-	WHERE monto > 50000;
+	WHERE monto > 5000;
 
 
 --Ejercicio N°3
-/* Listar todos los créditos con el interés aplicado mayor a 10%.*/
+/* Listar todos los créditos con el interés aplicado mayor a 4%.*/
 SELECT * FROM credito 
-	WHERE interes > 10;
+	WHERE interes > 4;
 
 
 --Ejercicio N°4
@@ -34,9 +34,9 @@ WHERE gc.id_credito = 20;
 
 
 --Ejercicio N°5
-/* Mostrar los productos cuyo tipo sea 'SUV'.*/
+/* Mostrar los productos cuyo tipo sea 'Carro'.*/
 SELECT * FROM producto
-	WHERE tipo = 'SUV';
+	WHERE tipo = 'Carro';
 
 
 --Ejercicio N°6
