@@ -1,6 +1,6 @@
 CREATE DATABASE BDD_creditos_vehiculares;
 USE BDD_creditos_vehiculares;
-
+SELECT * FROM sucursal
 --- Creación de Tablas
 
 USE BDD_creditos_vehiculares;

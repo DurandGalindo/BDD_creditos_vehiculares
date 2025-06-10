@@ -147,7 +147,7 @@ WHERE cu.saldo > 2000;
 
 
 --Ejercicio N°19
-/*ClieProductos tipo Motocicleta con precio menor a 10000 - Diana Llerena */
+/*ClieProductos tipo Motocicleta con precio menor a 10000*/
 SELECT nombre, tipo, precio
 FROM producto
 WHERE tipo = 'Motocicleta' AND precio < 10000;
